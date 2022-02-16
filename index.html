@@ -12,14 +12,18 @@
 <body>
     <header class="header">
         <nav>
+        <div class="container">
+        <div class="nav-bar">
+            <img class="header__logo" src="/images/logo.svg" alt="logo">
             <ul class="header__list">
-                <img class="header__logo" src="/images/logo.svg" alt="logo">
-                <li><a href="#">Features</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="header__item"><a  href="#" class="header__link">Features</a></li>
+                <li class="header__item"><a href="#" class="header__link">About</a></li>
+                <li class="header__item"><a href="#" class="header__link">Pricing</a></li>
+                <li class="header__item"><a href="#" class="header__link">Reviews</a></li>
+                <li class="header__item"><a href="#" class="header__link">Contact</a></li>
             </ul>
+        </div>
+        </div>
         </nav>
     </header>
     <main>
@@ -46,19 +50,23 @@
     <section>
         <div class="social-section">
             <div class="container">
+                <div class="social">
+                <div class="social-text">
                 <h4 class="title4 social-section__title">Social Media</h4>
                 <p class="social-section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                </div>
                 <ul class="social-section__list">
-                    <li><a href="https://facebook.com"><img src="/images/facebook.svg" alt="Facebook"></a></li>
-                    <li><a href="https://twitter.com"><img src="/images/twitter.svg" alt="Twitter"></a></li>
-                    <li><a href="https://linkedin.com"><img src="/images/linkedin.svg" alt="Linkedin"></a></li>
-                    <li><a href="https://pinterest.com"><img src="/images/pinterest.svg" alt="Pinterest"></a></li>
-                    <li><a href="https://instagram.com"><img src="/images/instagram.svg" alt="Instagram"></a></li>
-                    <li><a href="https://github.com"><img src="/images/github.svg" alt="Github"></a></li>
-                    <li><a href="https://reddit.com"><img src="/images/reddit.svg" alt="Reddit"></a></li>
+                    <li class="social-section__item"><a href="https://facebook.com"><img src="/images/facebook.svg" alt="Facebook"></a></li>
+                    <li class="social-section__item"><a href="https://twitter.com"><img src="/images/twitter.svg" alt="Twitter"></a></li>
+                    <li class="social-section__item"><a href="https://linkedin.com"><img src="/images/linkedin.svg" alt="Linkedin"></a></li>
+                    <li class="social-section__item"><a href="https://pinterest.com"><img src="/images/pinterest.svg" alt="Pinterest"></a></li>
+                    <li class="social-section__item"><a href="https://instagram.com"><img src="/images/instagram.svg" alt="Instagram"></a></li>
+                    <li class="social-section__item"><a href="https://github.com"><img src="/images/github.svg" alt="Github"></a></li>
+                    <li class="social-section__item"><a href="https://reddit.com"><img src="/images/reddit.svg" alt="Reddit"></a></li>
                 </ul>
             </div>
-        </div>
+            </div>
+            </div>
     </section>
         <!--Tabs with Image on the right block-->
     <section>
@@ -80,8 +88,8 @@
                 bibendum laoreet.
                 </p>
                 <a href="#" title="Download" class= "button">Download</a>
-                </div>
                 <img src="/images/large_image1.jpg" alt="Large Image" class="tabs-content__image">
+                </div>
             </div>
         </div>
     </section>
@@ -93,18 +101,20 @@
             <hr class="separator">
             <p class="design-section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <ul class="design-section__list">
-                <li>
-                    <img src="/images/sector4_1.svg" alt="Thoughtful Design">
+                <li class="design-section__item">
+                    <div class="circle">
+                    <img src="/images/sector4_1.svg" alt="Thoughtful Design" class="design-section__image">
+                    </div>
                     <h3>Thoughtful Design</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                 </li>
-                <li>
-                    <img src="/images/sector4_2.svg" alt="Thoughtful Design">
+                <li class="design-section__item">
+                    <div class="circle"><img src="/images/sector4_2.svg" alt="Thoughtful Design" class="design-section__image"></div>
                     <h3>Thoughtful Design</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing  Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                 </li>
-                <li>
-                    <img src="/images/sector4_3.svg" alt="Thoughtful Design">
+                <li class="design-section__item">
+                    <div class="circle"><img src="/images/sector4_3.svg" alt="Thoughtful Design" class="design-section__image"></div>
                     <h3>Thoughtful Design</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing  Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus  accumsan et viverra.</p>
                 </li>
@@ -119,6 +129,7 @@
             <h2 class="title2 pricing-section__title">Pricing options</h2>
             <hr class="separator">
             <p class="pricing-section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="pricing-plans">
             <div class="pricing-plan">
             <h4 class="title4 pricing-plan__title">Basic</h4>
             <div class="title3 pricing-plan__price"><h3>$10</h3></div>
@@ -159,6 +170,7 @@
             </ul>
             </div>
             </div>
+            </div>
         </div>
         </section>
 <!--Customer's feedback section-->
@@ -169,7 +181,8 @@
             <hr class="separator">
             <p class="feedback__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <ul class="feedback__list">
-                <li>
+                <li class="feedback__item">
+                <div class="rectangle">
                 <blockquote class="person__quote">
                     Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Doloribus
@@ -177,8 +190,10 @@
                     odio aspernatur ex, architecto eaque
                     quo suscipit.
                 </blockquote>
+                </div>
                 </li>
-                <li>
+                <li class="feedback__item">
+                <div class="rectangle">
                     <blockquote class="person__quote">
                         Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Doloribus
@@ -186,8 +201,10 @@
                         odio aspernatur ex, architecto eaque
                         quo suscipit.
                     </blockquote>
+                </div>
                 </li>
-                <li>
+                <li class="feedback__item">
+                <div class="rectangle">
                 <blockquote class="person__quote">
                     Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Doloribus
@@ -195,32 +212,33 @@
                     odio aspernatur ex, architecto eaque
                     quo suscipit.
                 </blockquote>
+                </div>
                 </li>
             </ul>
-            
+            <div class="persons">
             <div class="person">
-                <div class="person-image">
+                <div class="person__image">
                     <img src="/images/quote.svg" alt="Davis Rhiel Madsen" width="42" height="42">
                 </div>
-                <div class="person-name">
+                <div class="person__name">
                     <h4>Davis Rhiel Madsen</h4>
                     <p>Manager</p>
                 </div>
             </div>
             <div class="person">
-                <div class="person-image">
+                <div class="person__image">
                     <img src="/images/quote2.svg" alt="Jaydon Rosser" width="42" height="42">
                 </div>
-                <div class="person-name">
+                <div class="person__name">
                     <h4>Jaydon Rosser</h4>
                     <p>Manager</p>
                 </div>
             </div>
             <div class="person">
-                <div class="person-image">
+                <div class="person__image">
                     <img src="/images/quote3.svg" alt="Cooper Dorwart" width="42" height="42">
                 </div>
-                <div class="person-name">
+                <div class="person__name">
                     <h4>Cooper Dorwart</h4>
                     <p>Manager</p>
                 </div>
@@ -231,7 +249,7 @@
 <!--Stylish section-->
     <section class="stylish-module">
             <h2 class="title2 stylish-module__title">STYLISH AXURE DESIGN</h2>
-            <hr class="separator">
+            <hr class="stylish-module__separator">
             <p class="stylish-module__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
             <a href="#" title="Download" class="button button__transparent">Download</a>
         </div>
@@ -254,16 +272,18 @@
         </div>
     </section>
     <footer class="footer">
-        <ul class="social-container__list">
-            <li><a href="https://facebook.com"><img src="/images/facebook.svg" alt="Facebook"></a></li>
-            <li><a href="https://twitter.com"><img src="/images/twitter.svg" alt="Twitter"></a></li>
-            <li><a href="https://linkedin.com"><img src="/images/linkedin.svg" alt="Linkedin"></a></li>
-            <li><a href="https://pinterest.com"><img src="/images/pinterest.svg" alt="Pinterest"></a></li>
-            <li><a href="https://instagram.com"><img src="/images/instagram.svg" alt="Instagram"></a></li>
-            <li><a href="https://github.com"><img src="/images/github.svg" alt="Github"></a></li>
-            <li><a href="https://reddit.com"><img src="/images/reddit.svg" alt="Reddit"></a></li>
+        <div class="container">
+        <ul class="footer__list">
+            <li class="footer__item"><a href="https://facebook.com"><img src="/images/facebook.svg" alt="Facebook"></a></li>
+            <li class="footer__item"><a href="https://twitter.com"><img src="/images/twitter.svg" alt="Twitter"></a></li>
+            <li class="footer__item"><a href="https://linkedin.com"><img src="/images/linkedin.svg" alt="Linkedin"></a></li>
+            <li class="footer__item"><a href="https://pinterest.com"><img src="/images/pinterest.svg" alt="Pinterest"></a></li>
+            <li class="footer__item"><a href="https://instagram.com"><img src="/images/instagram.svg" alt="Instagram"></a></li>
+            <li class="footer__item"><a href="https://github.com"><img src="/images/github.svg" alt="Github"></a></li>
+            <li class="footer__item"><a href="https://reddit.com"><img src="/images/reddit.svg" alt="Reddit"></a></li>
         </ul>
         <p class="footer__copyright">© 2015 Axure Themes</p>
+    </div>
     </footer>
     </main>
 </body>
