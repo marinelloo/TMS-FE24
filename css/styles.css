@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+<<<<<<< Updated upstream
 body {
     font: normal 400 18px/21px 'Raleway', sans-serif;
     background-color: white;
@@ -211,27 +212,25 @@ h4, .title4 {
 
 .tabs-content{
     border: 1px solid #C6CBCD;
-    position: relative;
     height: 500px;
-    padding-left: 30px;
+    padding-left: 100px;
+    display: flex;
+    flex-grow: 1;;
 }
 
 .tabs-content__title {
-    width: 570px;
-    height: 124px;
     padding-top: 47px;
 }
 
 .tabs-content__text, .tabs-content__text2 {
-    width: 570px;
     margin-bottom: 27px;
 }
 
 .tabs-content__image {
     aspect-ratio: 470/500;
-    position: absolute;
-    top: 0;
-    right: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    padding-left: 30px;
 }
 
 /*Awesome section*/
@@ -490,3 +489,19 @@ h4, .title4 {
 .footer__copyright {
     color: rgba(255, 255, 255, 0.5);;
 }
+=======
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* .grass-base {
+    width: 450px;
+    height: 300px;
+    background: rgb(6, 107, 6);
+    border-radius: 100px / 50px;
+    position: relative;
+
+  } */
+>>>>>>> Stashed changes
