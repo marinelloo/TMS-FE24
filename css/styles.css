@@ -100,6 +100,9 @@ h4, .title4 {
     background: none;
 }
 
+.button__form {
+    width: 100%;
+}
 
 .banner__dark {
     color: white;
@@ -128,6 +131,7 @@ h4, .title4 {
     line-height: 19px;
     text-align: center;
     font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header__link:hover {
@@ -163,7 +167,6 @@ h4, .title4 {
     display: flex;
     padding-top: 230px;
     padding-bottom: 185px;
-
 }
 
 .main-banner__title {
@@ -178,10 +181,50 @@ h4, .title4 {
 }
 
 .form-container {
+    padding-left: 60px;
+}
+.form-trial {
+    width: 470px;
     background-color: white;
-    max-width: 470px;
+    border-radius: 10px;
+    color: black;
+    overflow: hidden;
+    text-align: center;
 }
 
+.form-inner {
+    padding: 30px 50px 75px;
+}
+
+.form-input {
+    width: 100%;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 15px 0;
+    background: none;
+}
+
+.form-input:focus {
+    border-color: black;
+}
+
+
+.form-input::placeholder {
+    color: #BDBDBD;
+}
+
+.form__row + .form__row {
+    margin-top: 15px;
+}
+
+.form-highlight {
+    color: #EC7979;
+}
 .social-section {
     background-color: #F8EFEF;
     margin: 0;
