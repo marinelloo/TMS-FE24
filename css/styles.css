@@ -183,6 +183,12 @@ h4, .title4 {
 .form-container {
     padding-left: 60px;
 }
+
+.form-container__title{
+    padding-bottom: 45px;
+}
+
+
 .form-trial {
     width: 470px;
     background-color: white;
@@ -487,13 +493,59 @@ h4, .title4 {
 .contact-us__text {
     text-align: center;
 }
+
+.contact-form-container {
+    padding-top: 90px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-input{
+    width: 571px;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 15px 0;
+    background: none;
+}
+
+
 .contact-us-form {
-    padding-top: 40px;
+    display: flex;
+    padding-bottom: 50px;
+    height: 100%;
 }
+
+.form-column2 {
+    padding-left: 30px;
+    margin-bottom: -3px;
+    align-self: flex-end;
+}
+
+textarea.contact-input {
+    resize: none;
+    align-self: flex-end;
+    height: 173px;
+}
+
+.contact-form__row1 + .contact-form__row1 {
+    margin-top: 20px;
+}
+
+.contact-input:focus {
+    border-color: black;
+}
+
+
 .contact-us__button{
-    align-items: center;
-    margin-top: 30px;
+    margin: 0 auto;
+    width: 370px;
 }
+
+
+/* Footer */
 
 .footer {
     background-color: black;

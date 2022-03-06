@@ -284,13 +284,27 @@
             <div><hr class="separator"></div>
             <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <form class="contact-us-form">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Password">
-            <input type="textarea" placeholder="Message">
-        </form>
-        <button class="button contact-us__button">Send Message</button>
+        <div class="contact-form-container">
+               <form class="contact-us-form">
+                   <div class="form-column1">
+                        <div class="contact-form__row1">
+                            <input type="text" placeholder="Name" class="contact-input">
+                        </div>
+                        <div class="contact-form__row1">
+                            <input type="text" placeholder="Email" class="contact-input">
+                        </div>
+                        <div class="contact-form__row1">
+                            <input type="password" placeholder="Password" class="contact-input">
+                        </div>
+                   </div>
+                   <div class="form-column2">
+                       <div class="contact-form__row2">
+                            <textarea placeholder="Message" class="contact-input" name="textarea"></textarea>
+                        </div>
+                   </div>
+                </form> 
+            <button class="button contact-us__button">Send Message</button>
+        </div>
         </div>
         </div>
     </section>
