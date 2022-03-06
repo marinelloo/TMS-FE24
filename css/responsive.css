@@ -1,0 +1,42 @@
+/* High resolution desktop and laptops */
+@media screen and (max-width: 1199px) {
+
+}
+
+/* Low resolution desktop and laptops */
+@media screen and (max-width: 991px) {
+
+}
+/* Tablets and Ipads (portrait and landscape*/
+
+@media screen and (max-width: 767px) {
+
+}
+/* Mobile devices (portrait and landscape*/
+@media screen and (max-width: 575px) {
+    .main-banner__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .text-container {
+        text-align: center;
+    }
+
+    .form-container {
+        padding: 56px 15px 50px 15px;
+    }
+
+    .form-trial {
+        width: 288px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .social-text {
+        text-align: center;
+    }
+}

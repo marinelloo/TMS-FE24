@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>Axit</title>
 </head>
 <body>
@@ -146,56 +148,55 @@
         <!--Pricing section-->
         <section class="pricing-section">
             <div class="container">
-            <h2 class="title2">Pricing options</h2>
-            <hr class="separator">
-            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="pricing-plans">
-                <div class="pricing-item">
-                    <div class="pricing-plan">
-                    <h4 class="title4 pricing-plan__title">Basic</h4>
-                    <div class="title3 pricing-plan__price"><h3>$10</h3></div>
-                    <div class="pricing-plan__term"><p>Free for life</p></div>
-                    <ul class="pricing-plan__list">
-                        <li>1 Gb Of Space</li>
-                        <li>1 Gb Of Space</li>
-                        <li>1 Gb Of Space</li>
-                        <li>1 Gb Of Space</li>
-                        <li>1 Gb Of Space</li>
-                        <li>1 Gb Of Space</li>
+                <div class="pricing-text">
+                    <h2 class="title2">Pricing options</h2>
+                    <hr class="separator">
+                    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4 col-sm-12">
+                  <div class="price-card">
+                    <h3 class="title4 pricing-plan__title">Basic</h3>
+                    <div class="title3 pricing-plan__price">$10</div>
+                    <div class="pricing-plan__term">Free for life</div>
+                    <ul>
+                      <li>1 gb of space</li>
+                      <li>1 gb of space</li>
+                      <li>1 gb of space</li>
+                      <li>1 gb of space</li>
+                      <li>1 gb of space</li>
                     </ul>
+                  </div>
                 </div>
-            </div>
-            <div class="pricing-item active__plan">
-                <div class="pricing-plan">
-                <h4 class="title4 pricing-plan__title">Optima</h4>
-                <div class="title3 pricing-plan__price"><h3>$20</h3></div>
-                <div class="pricing-plan__term"><p>Free for life</p></div>
-                <ul class="pricing-plan__list">
-                    <li>1 Gb Of Space</li>
-                    <li>1 Gb Of Space</li>
-                    <li>1 Gb Of Space</li>
-                    <li>1 Gb Of Space</li>
-                    <li>1 Gb Of Space</li>
-                    <li>1 Gb Of Space</li>
-                </ul>
+                <div class="col-xl-4 col-md-4 col-sm-12">
+                  <div class="price-card price-card--active">
+                    <h3 class="title4 pricing-plan__title">Optima</h3>
+                    <div class="title3 pricing-plan__price">$20</div>
+                    <div class="pricing-plan__term">Free for life</div>
+                    <ul>
+                      <li>1 gb of space</li>
+                      <li>1 gb of space</li>
+                      <li>1 gb of space</li>
+                      <li>1 gb of space</li>
+                      <li>1 gb of space</li>
+                    </ul>
+                  </div>
                 </div>
-            </div>
-            <div class="pricing-item">
-                <div class="pricing-plan">
-                <h4 class="title4 pricing-plan__title">Pro</h4>
-                <div class="title3 pricing-plan__price"><h3>$30</h3></div>
-                <div class="pricing-plan__term"><p>Free for life</p></div>
-                <ul class="pricing-plan__list">
-                    <li>1 Gb Of Space</li>
-                    <li>1 Gb Of Space</li>
-                    <li>1 Gb Of Space</li>
-                    <li>1 Gb Of Space</li>
-                    <li>1 Gb Of Space</li>
-                    <li>1 Gb Of Space</li>
-                </ul>
+                <div class="col-xl-4 col-md-4 col-sm-12">
+                  <div class="price-card">
+                    <h3 class="title4 pricing-plan__title">Pro</h3>
+                    <div class="title3 pricing-plan__price">$10</div>
+                    <div class="pricing-plan__term">Free for life</div>
+                    <ul>
+                      <li>1 gb of space</li>
+                      <li>1 gb of space</li>
+                      <li>1 gb of space</li>
+                      <li>1 gb of space</li>
+                    </ul>
+                  </div>
                 </div>
-            </div>
-            </div>
+        
+              </div>
             </div>
         </section>
 <!--Customer's feedback section-->
@@ -269,9 +270,11 @@
     </section>
 <!--Stylish section-->
     <section class="stylish-module banner__dark">
-            <div class="container">
+        <div class="container">
             <h2 class="title2">STYLISH AXURE DESIGN</h2>
-            <hr class="separator separator__white">
+            <div class="stylish-divider">
+                <hr class="separator separator__white">
+            </div>
             <p class="subtitle stylish-module__text ">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
             <a href="#" title="Download" class="button button__transparent">Download</a>
         </div>
