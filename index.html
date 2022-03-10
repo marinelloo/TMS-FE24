@@ -18,13 +18,15 @@
             <a href="#">
             <img class="header__logo" src="/images/logo.svg" alt="logo">
             </a>
-            <ul class="header__list">
+            <div class="d-none d-md-block">
+                <ul class="header__list">
                 <li class="header__item"><a  href="#" class="header__link">Features</a></li>
                 <li class="header__item"><a href="#" class="header__link">About</a></li>
                 <li class="header__item"><a href="#" class="header__link">Pricing</a></li>
                 <li class="header__item"><a href="#" class="header__link">Reviews</a></li>
                 <li class="header__item"><a href="#" class="header__link">Contact</a></li>
             </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -102,8 +104,10 @@
                             </p>
                             <a href="#" title="Download" class= "button">Download</a>
                         </div>
-                        <div class="tabs-content__image">
-                        <img src="/images/large_image1.jpg" alt="Large Image">
+                        <div class="d-none d-md-block">
+                            <div class="tabs-content__image">
+                                <img src="/images/large_image1.jpg" alt="Large Image" class="img-fluid">
+                            </div>    
                         </div>
                     </div>
                 </div>
@@ -115,33 +119,46 @@
             <h2 class="title2">WHY THIS IS AWESOME</h2>
             <hr class="separator">
             <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul class="design-section__list">
-                <li class="design-section__item">
-                    <div class="design-icon">
-                        <div class="circle">
-                            <img src="/images/sector4_1.svg" alt="Thoughtful Design" class="design-section__image">
-                        </div>
-                    </div>
-                    <h3 class="title3 design__title">Thoughtful Design</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-                </li>
-                <li class="design-section__item">
-                    <div class="design-icon">
-                        <div class="circle">
-                            <img src="/images/sector4_2.svg" alt="Thoughtful Design" class="design-section__image"></div>
-                    </div>
-                    <h3 class="title3 design__title">Thoughtful Design</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing  Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-                </li>
-                <li class="design-section__item">
-                    <div class="design-icon">
-                        <div class="circle">
-                            <img src="/images/sector4_3.svg" alt="Thoughtful Design" class="design-section__image"></div>
-                    </div>
-                    <h3 class="title3 design__title">Thoughtful Design</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing  Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus  accumsan et viverra.</p>
-                </li>
-            </ul>
+            <div class="row">
+                <div class="col-xl-4 col-md-4 col-sm-12">
+                    <ul class="design-section__list">
+                        <li class="design-section__item">
+                            <div class="design-icon">
+                                <div class="circle">
+                                    <img src="/images/sector4_1.svg" alt="Thoughtful Design" class="design-section__image">
+                                </div>
+                            </div>
+                            <h3 class="title3 design__title">Thoughtful Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-md-4 col-sm-12">
+                    <ul class="design-section__list">
+                        <li class="design-section__item">
+                            <div class="design-icon">
+                                <div class="circle">
+                                    <img src="/images/sector4_2.svg" alt="Thoughtful Design" class="design-section__image"></div>
+                            </div>
+                            <h3 class="title3 design__title">Thoughtful Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing  Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-md-4 col-sm-12">
+                    <ul class="design-section__list">
+                        <li class="design-section__item">
+                            <div class="design-icon">
+                                <div class="circle">
+                                    <img src="/images/sector4_3.svg" alt="Thoughtful Design" class="design-section__image"></div>
+                            </div>
+                            <h3 class="title3 design__title">Thoughtful Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing  Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus  accumsan et viverra.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
             </div>    
             </div>
         </section>
@@ -192,6 +209,7 @@
                       <li>1 gb of space</li>
                       <li>1 gb of space</li>
                       <li>1 gb of space</li>
+                      <li>1 gb of space</li>
                     </ul>
                   </div>
                 </div>
@@ -207,46 +225,56 @@
                     <hr class="separator">
                     <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-            <ul class="feedback__list">
-                <li class="feedback__item">
-                    <blockquote class="person__quote">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus
-                        accusamus expedita repellat similique
-                        odio aspernatur ex, architecto eaque
-                        quo suscipit.
-                    </blockquote>
-                    <div class="triangle"></div>
-                    <div class="person">
-                        <div class="person__image">
-                            <img src="/images/quote.svg" alt="Davis Rhiel Madsen" width="42" height="42">
-                        </div>
-                        <div class="person__name">
-                            <h4>Davis Rhiel Madsen</h4>
-                            <p>Manager</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="feedback__item">
-                    <blockquote class="person__quote">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus
-                        accusamus expedita repellat similique
-                        odio aspernatur ex, architecto eaque
-                        quo suscipit.
-                    </blockquote>
-                    <div class="triangle"></div>
-                    <div class="person">
-                        <div class="person__image">
-                            <img src="/images/quote2.svg" alt="Jaydon Rosser" width="42" height="42">
-                        </div>
-                        <div class="person__name">
-                            <h4>Jaydon Rosser</h4>
-                            <p>Manager</p>
+        <div class="row">
+            <div class="col-xl-4 col-md-4 col-sm-12">
+                <div class="feedback__list">
+                    <div class="feedback__item">
+                        <blockquote class="person__quote">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </blockquote>
+                        <div class="triangle"></div>
+                        <div class="person">
+                            <div class="person__image">
+                                <img src="/images/quote.svg" alt="Davis Rhiel Madsen">
+                            </div>
+                            <div class="person__name">
+                                <h4>Davis Rhiel Madsen</h4>
+                                <p>Manager</p>
+                            </div>
                         </div>
                     </div>
-                </li>
-                <li class="feedback__item">
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-4 col-sm-12">
+                <div>
+                    <div class="feedback__item">
+                        <blockquote class="person__quote">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </blockquote>
+                        <div class="triangle"></div>
+                        <div class="person">
+                            <div class="person__image">
+                                <img src="/images/quote2.svg" alt="Jaydon Rosser">
+                            </div>
+                            <div class="person__name">
+                                <h4>Jaydon Rosser</h4>
+                                <p>Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-4 col-sm-12">
+                <div>
+                    <div class="feedback__item">
                     <blockquote class="person__quote">
                         Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Doloribus
@@ -257,16 +285,18 @@
                     <div class="triangle"></div>
                     <div class="person">
                     <div class="person__image">
-                        <img src="/images/quote3.svg" alt="Cooper Dorwart" width="42" height="42">
+                        <img src="/images/quote3.svg" alt="Cooper Dorwart">
                     </div>
                     <div class="person__name">
                         <h4>Cooper Dorwart</h4>
                         <p>Manager</p>
                     </div>
                     </div>
-                </li>
-            </ul>
+                </div>
+                </div>
             </div>
+        </div>
+        </div>
     </section>
 <!--Stylish section-->
     <section class="stylish-module banner__dark">
@@ -289,25 +319,26 @@
         </div>
         <div class="contact-form-container">
                <form class="contact-us-form">
-                   <div class="form-column1">
-                        <div class="contact-form__row1">
+                   <div class="contact-form__row1">
+                       <div class="contact-form__row">
                             <input type="text" placeholder="Name" class="contact-input">
                         </div>
-                        <div class="contact-form__row1">
+                        <div class="contact-form__row">
                             <input type="text" placeholder="Email" class="contact-input">
                         </div>
-                        <div class="contact-form__row1">
+                        <div class="contact-form__row">
                             <input type="password" placeholder="Password" class="contact-input">
                         </div>
                    </div>
-                   <div class="form-column2">
-                       <div class="contact-form__row2">
+                   <div class="contact-form__row2">
+                       <div class="contact-form__row">
                             <textarea placeholder="Message" class="contact-input" name="textarea"></textarea>
                         </div>
                    </div>
                 </form> 
-            <button class="button contact-us__button">Send Message</button>
         </div>
+        <div class="contact-btn">
+            <button class="button contact-us__button">Send Message</button>
         </div>
         </div>
     </section>
