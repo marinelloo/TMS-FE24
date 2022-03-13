@@ -262,6 +262,11 @@ h4, .title4 {
     padding: 0 18px;
 }
 
+.fa-brands {
+    color: #CCCCCC;
+    font-size: 53px;
+}
+
 /*Tabs with Image on the right*/
 
 .tabs-section{
@@ -280,8 +285,8 @@ h4, .title4 {
 
 .tabs-content{
     border: 1px solid #C6CBCD;
-    display: flex;
-    flex-grow: 1;
+    flex-wrap: nowrap;
+    align-items: stretch;
 }
 
 .tabs-content__left{
@@ -298,10 +303,10 @@ h4, .title4 {
 }
 
 .tabs-content__image {
-    max-width: 40%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     flex-shrink: 0;
-    object-fit: contain;
+    object-fit: cover;
     padding-left: 30px;
 }
 
