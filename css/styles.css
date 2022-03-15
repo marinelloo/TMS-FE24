@@ -285,8 +285,9 @@ h4, .title4 {
 
 .tabs-content{
     border: 1px solid #C6CBCD;
-    flex-wrap: nowrap;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: self-end;
 }
 
 .tabs-content__left{
@@ -302,12 +303,11 @@ h4, .title4 {
     margin-bottom: 27px;
 }
 
-.tabs-content__image {
-    max-width: 100%;
-    max-height: 100%;
-    flex-shrink: 0;
-    object-fit: cover;
-    padding-left: 30px;
+.tabs-content__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    /* justify-self: stretch; */
 }
 
 /*Awesome section*/
@@ -497,13 +497,12 @@ h4, .title4 {
 }
 
 .contact-form__row textarea {
-    height: 100%;
     resize: none;
+    height: 252px;
 }
 
 
 .contact-input{
-    /* width: 571px; */
     font-size: 14px;
     line-height: 19px;
     font-family: 'Open Sans', sans-serif;
