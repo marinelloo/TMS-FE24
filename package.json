@@ -1,0 +1,27 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "parcel": "^2.3.2",
+    "sass": "^1.49.9",
+    "swiper": "^8.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "parcel build",
+    "dev": "parcel index.html --public-url /",
+    "prod": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinelloo/TMS-FE24.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marinelloo/TMS-FE24/issues"
+  },
+  "homepage": "https://github.com/marinelloo/TMS-FE24#readme"
+}
